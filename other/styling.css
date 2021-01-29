@@ -41,5 +41,14 @@ p {
 
 footer {
     align-self: stretch;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 400px){
+    html{
+        font-size: 13px;
+    }
+    #ticker {
+        font-size: 8rem;
+    }
 }
